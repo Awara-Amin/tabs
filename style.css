@@ -1,0 +1,111 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.firstP {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 70px;
+}
+
+img {
+  width: 600px;
+  height: 300px;
+  border-radius: 5%;
+}
+
+.image {
+  margin-right: 40px;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: green;
+  color: white;
+  font-size: 2rem;
+  border-radius: 20%;
+  margin-top: 5px;
+}
+
+.tabs {
+  width: 600px;
+  background-color: gray;
+  /* opacity: 0.3; */
+  border-radius: 5%;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.boxes {
+  margin-top: 30px;
+}
+
+.firstBox {
+  display: none;
+}
+
+.secondBox {
+  display: none;
+}
+
+.thirdBox {
+  display: none;
+}
+
+.showBox {
+  display: block;
+}
+
+.topButtons {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width:768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  img {
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+  }
+
+  .tabs {
+    width: 400px;
+    background-color: gray;
+    border-radius: 5%;
+    margin-top: 30px;
+  }
+
+  button {
+    padding: 10px 30px;
+    background-color: green;
+    color: white;
+    font-size: 1rem;
+    border-radius: 20%;
+    margin-top: 5px;
+  }
+  h2{
+    color:white
+  }
+  .firstP {
+    display: flex;
+    justify-content: center;
+    width: 370px;
+    margin-left: 70px;
+  }
+}
